@@ -32,20 +32,19 @@ paragraph default: 1.6
 
 - accents:
 - greys: 
+#888
+#767676
 #6f6f6f (lightlest grey allowed on #fdf2e9)
 #555
 #333
-
 
 -- 03 shadows
 
 box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
-
 -- 04 border-radius
 default: 9px
 medium: 11px
-
 
 -- 05 whitespace
 
@@ -103,6 +102,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
