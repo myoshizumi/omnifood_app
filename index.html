@@ -4,7 +4,11 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Omnifood is an AI-powered food subscription that will make you eat healthy again, Tailored to your personal tastes and nutritional needs." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" />
+    <link ref="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,7 +17,7 @@
     <link rel="stylesheet" href="css/queries.css" />
     <sript defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></sript>
     <script defer src="js/script.js"></script>
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again!</title>
   </head>
 
   <body>
@@ -62,7 +66,11 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img src="img/hero.png" class="hero-img" alt="Woman enjoying foo, meals in storage container, and food bowls ona table" />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero.png" type="image/png" />
+              <img src="img/hero2.png" class="hero-img" alt="Woman enjoying foo, meals in storage container, and food bowls ona table" />
+            </picture>
           </div>
         </div>
       </section>
@@ -76,7 +84,6 @@
             <img src="img/logos/the-new-york-times.png" alt="The new york times logo" />
             <img src="img/logos/forbes.png" alt="Forbes logo" />
             <img src="img/logos/usa-today.png" alt="USA today logo" />
-
           </div>
         </div>
       </section>
@@ -271,8 +278,6 @@
               <p class="testimonial-name">&mdash; Steve Miller</p>
             </figure>
 
-
-
             <figure class="testimonial">
               <img class="testimonial-img" alt="Photo of customer Hannah Smith" src="img/customers/hannah.jpg" />
               <blockqoute class="testimonial-text">
@@ -288,7 +293,6 @@
         <div class="gallery">
           <figure class="gallery-item">
             <img src="img/gallery/gallery-1.jpg" alt="photo of beautifully arranged food" />
-            <!-- <figcaption>Caption</figcaption> -->
           </figure>
           <figure class="gallery-item">
             <img src="img/gallery/gallery-2.jpg" alt="photo of beautifully arranged food" />
